@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getTen",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"aquo/getTen.sol": "SimpleContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"aquo/getTen.sol": {
+			"keccak256": "0x1bda098760080de19dfa8f273e82e0aa3a7dbe63f421a6c9a5fb3da3ce362df8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://883ddb0e98109f9a674fb8a6e926d4026a093cf18f7073f457646c2c025dab93",
+				"dweb:/ipfs/QmVLzSq6CJE6P6byCkon9ePhq5r61FPGubXvmQfSXKSZoK"
+			]
+		}
+	},
+	"version": 1
+}

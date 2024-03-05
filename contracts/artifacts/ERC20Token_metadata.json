@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/transferex.sol": "ERC20Token"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/transferex.sol": {
+			"keccak256": "0x4b4fbce554d6d64935c02f8e182a3975025d886610657f9e43dc10ffc873e051",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://746d880f79b0df2ad7b13799425f45a60a43aa1fb46b521fbfe7111e70fdb2d5",
+				"dweb:/ipfs/QmTuHjrkdm6QNpzM7PYqYSJSbL6CNYKN7pg81kDdCiLDMs"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,112 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contractListAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_prospectusRegistryAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "contractAddress",
+						"type": "address"
+					}
+				],
+				"name": "getContractAndProspectus",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "contractId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "prospectusCid",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "imageCid",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "proposer",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"aquo/AquoAggregatorv3.sol": "AggregatorContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"aquo/AquoAggregatorv3.sol": {
+			"keccak256": "0xc815aa8b619d63d66e144c344965ae29ced3293eeb94373097076ceb01712f9e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f3c3efa8ce726376f5c8af45248777af80c8b1805046afb4bc72facde2b52791",
+				"dweb:/ipfs/QmNvj5xjA71ezzS6oLJsDzDEqS811tSs2MD35KohusiuKf"
+			]
+		},
+		"aquo/AquoContractListv3.sol": {
+			"keccak256": "0xd2730c359267775962a27d009938ec9adfb8ff56dbc42b6365bbd656804ddd2e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://316f70e7bc6821305ecf68d2220eeed6c1306cd3845535f67ff1387a461167dc",
+				"dweb:/ipfs/QmdW8hSjKpSU8sEYjjPzTDccKbA5cVA4RRu2W94VmJ1mte"
+			]
+		},
+		"aquo/AquoProspectusList2v3.sol": {
+			"keccak256": "0xa6a9b00587e62dfabeed599e38ce1ef194e93bf740a2a57dae42eaff6ddd8e10",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a7ced9d5c9cdc421f235bab0de51487f0d247ac51f59a4e103cc336e2ff94d34",
+				"dweb:/ipfs/QmaMbyJV4TRsXnF96nsrhPQhsJj24CRfN6oJ17C2gaHYjb"
+			]
+		}
+	},
+	"version": 1
+}

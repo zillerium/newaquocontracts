@@ -1,0 +1,208 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_prospectusCid",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_imageCid",
+						"type": "string"
+					}
+				],
+				"name": "addRecord",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAllRecords",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "prospectusCid",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "imageCid",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "proposer",
+								"type": "address"
+							}
+						],
+						"internalType": "struct ProspectusRegistry.ProspectusRecord[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_prospectusCid",
+						"type": "string"
+					}
+				],
+				"name": "getProspectusRecord",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "prospectusCid",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "imageCid",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "proposer",
+								"type": "address"
+							}
+						],
+						"internalType": "struct ProspectusRegistry.ProspectusRecord",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getRecord",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "prospectusCid",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "imageCid",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "proposer",
+								"type": "address"
+							}
+						],
+						"internalType": "struct ProspectusRegistry.ProspectusRecord",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getRecordCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "records",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "prospectusCid",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "imageCid",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "proposer",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AquoProspectusList2v3.sol": "ProspectusRegistry"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AquoProspectusList2v3.sol": {
+			"keccak256": "0xa6a9b00587e62dfabeed599e38ce1ef194e93bf740a2a57dae42eaff6ddd8e10",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a7ced9d5c9cdc421f235bab0de51487f0d247ac51f59a4e103cc336e2ff94d34",
+				"dweb:/ipfs/QmaMbyJV4TRsXnF96nsrhPQhsJj24CRfN6oJ17C2gaHYjb"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,154 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contractList",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_prospectusRegistry",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "contractAddress",
+						"type": "address"
+					}
+				],
+				"name": "contractDeployed",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "contractList",
+				"outputs": [
+					{
+						"internalType": "contract ContractList",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_pdfAddress",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_imageAddress",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_initialShares",
+						"type": "uint256"
+					}
+				],
+				"name": "deployAndRegisterContract",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "prospectusRegistry",
+				"outputs": [
+					{
+						"internalType": "contract ProspectusRegistry",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/aquo/AquoNewDeployv3.sol": "DeployContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/aquo/AquoAssetTransferv3.sol": {
+			"keccak256": "0xfb760487a4bfabd1ee1b831f626c2af02fc63c9bc7fd0029a86da2655ae67b57",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5609544ff225d42d7c579d91cf0e6ef08a406661d305f9cb7b49906efdca34c2",
+				"dweb:/ipfs/QmP16CERggW7rRVTQ2XQMfSzJpMBa63eq1FtGwBtr45Bx4"
+			]
+		},
+		"contracts/aquo/AquoContractListv3.sol": {
+			"keccak256": "0xd2730c359267775962a27d009938ec9adfb8ff56dbc42b6365bbd656804ddd2e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://316f70e7bc6821305ecf68d2220eeed6c1306cd3845535f67ff1387a461167dc",
+				"dweb:/ipfs/QmdW8hSjKpSU8sEYjjPzTDccKbA5cVA4RRu2W94VmJ1mte"
+			]
+		},
+		"contracts/aquo/AquoNewDeployv3.sol": {
+			"keccak256": "0x3069e8df676f26a8b09b01a0c28693fb8675a851500427330be65779b56f0b80",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://93201afa9efccac29227121eaf219b5f06373f4cd7a3cf87633ef38936cfc93a",
+				"dweb:/ipfs/QmPyogPiiTKfRsj9JdMrunWtUvaKtLL8cMMRFJM5udAEWH"
+			]
+		},
+		"contracts/aquo/AquoProspectusList2v3.sol": {
+			"keccak256": "0xa6a9b00587e62dfabeed599e38ce1ef194e93bf740a2a57dae42eaff6ddd8e10",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a7ced9d5c9cdc421f235bab0de51487f0d247ac51f59a4e103cc336e2ff94d34",
+				"dweb:/ipfs/QmaMbyJV4TRsXnF96nsrhPQhsJj24CRfN6oJ17C2gaHYjb"
+			]
+		}
+	},
+	"version": 1
+}

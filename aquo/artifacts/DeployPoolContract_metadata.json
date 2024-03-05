@@ -1,0 +1,112 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_poolList",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "poolAddress",
+						"type": "address"
+					}
+				],
+				"name": "poolDeployed",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "deployAndRegisterPool",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "poolList",
+				"outputs": [
+					{
+						"internalType": "contract PoolList",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"aquo/aquodeploypool.sol": "DeployPoolContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"aquo/AquoPoolList.sol": {
+			"keccak256": "0xd264b77b6935d5c262e4c5c8699da5a5b346de47cec22782f232912ec574d32b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://639d3a2d0e6172929b858443534a6a8c912fd49fec092a839ea7c9610e0dfd85",
+				"dweb:/ipfs/QmRKP5pi3ffipRpZ8quNDaR63NTTWapVDhsqexxdbNfk37"
+			]
+		},
+		"aquo/aquodeploypool.sol": {
+			"keccak256": "0x5f1cf893da5e5373e763b521c163afa5d3bb13aeeebdb4a6babf1c57eb0de588",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bdaa3e1cf1d3829317659d3d4d339aa53aebc611d1c995e3e67b0e485f643b4f",
+				"dweb:/ipfs/Qmd5sGqTvHNaoEzryUjzZnAG8zDZYpCVzMeZZhWeupWsAs"
+			]
+		},
+		"aquo/aquopool.sol": {
+			"keccak256": "0x1db28c0ad1e46f0004ab7c2133f160107bc62c330cfd07c39b9a2165e7078643",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://07f26133ed0507e442eb8d7b5e0c934eaafbfdd9d1620f438bbe154df9389cc0",
+				"dweb:/ipfs/QmYRVw54EdKDwJVMmQimoM5abZ7AgHopMXXckxj4Q4GHA4"
+			]
+		}
+	},
+	"version": 1
+}

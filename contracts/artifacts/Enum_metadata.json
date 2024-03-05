@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "status",
+				"outputs": [
+					{
+						"internalType": "enum Enum.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/counter.sol": "Enum"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/counter.sol": {
+			"keccak256": "0x25e7b49148f3e874e3c367ded8ca9d85bc3221d6418f45e928b6113a0b830b37",
+			"license": "BSD-2-Clause",
+			"urls": [
+				"bzz-raw://e20a35ce72aaa4c1f2449b4417898ba14434d6297425a6f644f50cc3972305c7",
+				"dweb:/ipfs/QmPbrPKRVuEbsf2meZW7YuR8s1LRPFbtUpju4h2mTJTnNQ"
+			]
+		}
+	},
+	"version": 1
+}

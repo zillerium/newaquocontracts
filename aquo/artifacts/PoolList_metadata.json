@@ -1,0 +1,152 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getAllPools",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "poolId",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address",
+								"name": "poolAddress",
+								"type": "address"
+							}
+						],
+						"internalType": "struct PoolList.Pool[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_poolAddress",
+						"type": "address"
+					}
+				],
+				"name": "getPoolByPoolAddress",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "poolId",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address",
+								"name": "poolAddress",
+								"type": "address"
+							}
+						],
+						"internalType": "struct PoolList.Pool",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_poolId",
+						"type": "uint256"
+					}
+				],
+				"name": "getPoolByPoolId",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "poolId",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address",
+								"name": "poolAddress",
+								"type": "address"
+							}
+						],
+						"internalType": "struct PoolList.Pool",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_poolAddress",
+						"type": "address"
+					}
+				],
+				"name": "listPool",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"aquo/AquoPoolList.sol": "PoolList"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"aquo/AquoPoolList.sol": {
+			"keccak256": "0xd264b77b6935d5c262e4c5c8699da5a5b346de47cec22782f232912ec574d32b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://639d3a2d0e6172929b858443534a6a8c912fd49fec092a839ea7c9610e0dfd85",
+				"dweb:/ipfs/QmRKP5pi3ffipRpZ8quNDaR63NTTWapVDhsqexxdbNfk37"
+			]
+		}
+	},
+	"version": 1
+}

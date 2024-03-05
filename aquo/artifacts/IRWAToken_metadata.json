@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transferFrom",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newPoolSlot",
+						"type": "uint256"
+					}
+				],
+				"name": "updatePoolSlot",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"aquo/aquopool.sol": "IRWAToken"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"aquo/aquopool.sol": {
+			"keccak256": "0xad5ccf05c41cc00a0b05997a58a11b54e16d990522655f67c658e2cd37a46dbc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f56b7d16c495154a6fb1cd38d2c9b6c5abb119bb119f5993ac123c68df74fb38",
+				"dweb:/ipfs/QmapPFZRrNJcFnzKjTcTMevhVJh4waYiDNsv3VABgRj4jH"
+			]
+		}
+	},
+	"version": 1
+}

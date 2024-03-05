@@ -1,0 +1,128 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_daoList",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "daoAddress",
+						"type": "address"
+					}
+				],
+				"name": "daoDeployed",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "daoList",
+				"outputs": [
+					{
+						"internalType": "contract DAOList",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_rwaContract",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_poolAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_dilution",
+						"type": "uint256"
+					}
+				],
+				"name": "deployAndRegisterDAO",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"aquo/aquodeploydao.sol": "DeployDAOContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"aquo/AquoDaoList.sol": {
+			"keccak256": "0x8d82e260fd8f7303845b2fe097790e69dfb34651ecc3983c313da64ff7ec3129",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://32b856b40754d135710a0cbc5d4190214260314a0120c3a7db90f111cc979603",
+				"dweb:/ipfs/QmZLo6cf7hrZAyzajzpa9nBvf8mZcMqb8x7tDSxWV42i7J"
+			]
+		},
+		"aquo/aquodao.sol": {
+			"keccak256": "0x7fba58d9ed3dd27d8b4d4834c030f272eb7375e4c5b3cedf763f7ce90fd1ef11",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e63b6baef7c69dab8c2ba3ac594499536850ba8fdfa2398e9cd82aeeb94aef0c",
+				"dweb:/ipfs/QmfDY7JhsaKg2BNrEU3WPdcCxRViGy7kMNJ7nVYCv3DNU3"
+			]
+		},
+		"aquo/aquodeploydao.sol": {
+			"keccak256": "0x7a0db63be6c44f6afe6c8378791d6ff14ae81829b7c503d0e05977ac1df6629e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1da454b7c015c01ff54225274a88f5a7742108d5f3bd5d64471b5b9c99d200ec",
+				"dweb:/ipfs/QmZnJJ3qyvYKPguuVsPFqnf1TDDxkZ64QPgTaG4WCBnvZP"
+			]
+		}
+	},
+	"version": 1
+}

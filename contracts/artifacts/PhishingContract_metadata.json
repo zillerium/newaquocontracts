@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdrawAll",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ent.sol": "PhishingContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ent.sol": {
+			"keccak256": "0xa2a9ed5ad0773d1730a7fb3a6a1549977582ecae20f546ca418152981dca3881",
+			"license": "BSD-2-Clause",
+			"urls": [
+				"bzz-raw://2efb3642ea22e0d28dfa90b55159e1d396aa40d432e4d937ef93af969d0c5b3a",
+				"dweb:/ipfs/QmUyNCAhFcm7gBBQspEi2WAxYEXSSqwY9vCMNCUZKpsmLr"
+			]
+		}
+	},
+	"version": 1
+}

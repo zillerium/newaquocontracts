@@ -1,0 +1,256 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "ipfsAddress",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "assetDesc",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "contractAddress",
+						"type": "address"
+					}
+				],
+				"name": "addAsset",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAllAssets",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "assetId",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "ipfsAddress",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "assetDesc",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "contractAddress",
+								"type": "address"
+							}
+						],
+						"internalType": "struct AssetManager.Asset[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "assetId",
+						"type": "uint256"
+					}
+				],
+				"name": "getAssetByAssetId",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "assetId",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "ipfsAddress",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "assetDesc",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "contractAddress",
+								"type": "address"
+							}
+						],
+						"internalType": "struct AssetManager.Asset",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "contractAddress",
+						"type": "address"
+					}
+				],
+				"name": "getAssetByContractAddress",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "assetId",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "ipfsAddress",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "assetDesc",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "contractAddress",
+								"type": "address"
+							}
+						],
+						"internalType": "struct AssetManager.Asset",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "ipfsAddress",
+						"type": "string"
+					}
+				],
+				"name": "getAssetByIpfsAddress",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "assetId",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "ipfsAddress",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "assetDesc",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "contractAddress",
+								"type": "address"
+							}
+						],
+						"internalType": "struct AssetManager.Asset",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "contractAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "newIpfsAddress",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "newAssetDesc",
+						"type": "string"
+					}
+				],
+				"name": "updateAsset",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AquoContractListv3.sol": "AssetManager"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AquoContractListv3.sol": {
+			"keccak256": "0x7f6f12b47604bf91f9e2f340d355dc23ffab5d90b41dcfe20bc4a5efa9dc8f0c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://30ad4b986d1cb524494ad105228e24e9125fae6413d701f8d18a8499407d73e1",
+				"dweb:/ipfs/Qma6CQ8Jqp9pdtQbVG3njd2GP1YwYf8EgbCQtQzBzznALa"
+			]
+		}
+	},
+	"version": 1
+}

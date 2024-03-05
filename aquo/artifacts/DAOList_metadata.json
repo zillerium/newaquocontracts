@@ -1,0 +1,152 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getAllDAOs",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "daoId",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address",
+								"name": "daoAddress",
+								"type": "address"
+							}
+						],
+						"internalType": "struct DAOList.DAO[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_daoAddress",
+						"type": "address"
+					}
+				],
+				"name": "getDAOByDAOAddress",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "daoId",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address",
+								"name": "daoAddress",
+								"type": "address"
+							}
+						],
+						"internalType": "struct DAOList.DAO",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_daoId",
+						"type": "uint256"
+					}
+				],
+				"name": "getDAOByDAOId",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "daoId",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address",
+								"name": "daoAddress",
+								"type": "address"
+							}
+						],
+						"internalType": "struct DAOList.DAO",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_daoAddress",
+						"type": "address"
+					}
+				],
+				"name": "listDAO",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"aquo/AquoDaoList.sol": "DAOList"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"aquo/AquoDaoList.sol": {
+			"keccak256": "0x8d82e260fd8f7303845b2fe097790e69dfb34651ecc3983c313da64ff7ec3129",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://32b856b40754d135710a0cbc5d4190214260314a0120c3a7db90f111cc979603",
+				"dweb:/ipfs/QmZLo6cf7hrZAyzajzpa9nBvf8mZcMqb8x7tDSxWV42i7J"
+			]
+		}
+	},
+	"version": 1
+}
